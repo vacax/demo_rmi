@@ -17,3 +17,7 @@ dependencies {
     compile project(':interfaz_rmi')
     testCompile group: 'junit', name: 'junit', version: '4.12'
 }
+
+run{
+    standardInput = System.in
+}
